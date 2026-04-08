@@ -13,6 +13,18 @@ main {
   /* &.main-container {
     max-width: 33rem;
   } Não funcionou dessa forma aqui dentro para mim*/
+  & .back {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  & h1 {
+    font: 600 1.5rem/1.25 var(--font-family);
+    margin-bottom: .5rem;
+  }
+
 }
 
 main .main-container {
@@ -22,11 +34,27 @@ main .main-container {
 }
 
 
+
+
 aside {
   background-color: var(--surface-secondary);
   padding: 4rem;
+
+  & h2 {
+    font: 600 2.5rem/1.25 var(--font-family);
+    margin-bottom: .5rem;
+
+    & span {
+      color: var(--text-highlight);
+    }
+  }
+
 }
 
 aside .aside-container {
   max-width: 31rem;
+
+  & > img {
+    margin-top: 2rem;
+  }
 }
