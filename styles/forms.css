@@ -22,7 +22,7 @@ fieldset + fieldset {
 }
 
 
-.droparea-wrapper {
+/* .droparea-wrapper {
   position: relative;
   display: grid;
   place-items: center;
@@ -64,4 +64,4 @@ fieldset + fieldset {
   color: var(--text-secondary);
   font: var(--text);
   line-height: 1.5;
-}
+} */
