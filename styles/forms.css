@@ -40,7 +40,7 @@ fieldset + fieldset {
 .droparea-label {
   display: block;
   /* margin-bottom: 0.75rem; */
-  margin-bottom: 0.4rem;
+  /* margin-bottom: 0.4rem;
   color: var(--text-primary);
   font: 600 0.95rem/1.4 var(--font-family);
 }
@@ -64,4 +64,4 @@ fieldset + fieldset {
   color: var(--text-secondary);
   font: var(--text);
   line-height: 1.5;
-} */
+} */ 
